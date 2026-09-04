@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Домашний кардиограф — портативная система для самостоятельного мониторинга ЭКГ и ЧСС.">
+  <title>Домашний кардиограф</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Домашний кардиограф">
+        <img src="assets/cardiograph-logo.png" alt="Логотип Домашний кардиограф">
+      </a>
+
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="#about">О проекте</a>
+        <a href="#device">Устройство</a>
+        <a href="#team">Команда</a>
+        <a href="#legal">Реквизиты</a>
+        <a href="#support">Поддержка</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Доступный контроль здоровья</p>
+          <h1>Домашний<br>кардиограф</h1>
+          <p class="hero-text">
+            Портативная система для самостоятельного мониторинга электрической активности сердца
+            и частоты сердечных сокращений в домашних условиях.
+          </p>
+          <a class="button" href="#about">Узнать подробнее <span>↓</span></a>
+        </div>
+
+        <div class="hero-visual" aria-label="Кардиограф и интерфейс мониторинга">
+          <div class="hero-blob"></div>
+          <div class="phone">
+            <div class="phone-screen">
+              <img src="assets/app.jpg"
+                   alt="Экран мобильного приложения — мониторинг ЭКГ">
+            </div>
+          </div>
+
+<div class="ecg-line" aria-hidden="true">
+            <svg viewBox="0 0 700 220">
+              <path d="M0 115H120L145 115L170 52L202 170L242 88L275 115H365L390 112L412 132L443 32L478 182L520 94L548 115H700"
+                    fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <img class="hero-device" src="assets/cardiograph-1.png" alt="Домашний кардиограф с электродами">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-kicker">О проекте</p>
+        <h2>Суть проекта</h2>
+        <p class="lead">
+          Создание портативного устройства, позволяющего пациентам самостоятельно и в удобных домашних
+          условиях проводить профилактический мониторинг своего сердечно-сосудистого здоровья.
+        </p>
+
+        <div class="features">
+          <article class="feature-card">
+            <div class="feature-icon">⌂</div>
+            <h3>Удобное использование дома</h3>
+            <p>Простая и понятная процедура измерения без сложной подготовки.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">▥</div>
+            <h3>Мониторинг в реальном времени</h3>
+            <p>Отображение ЭКГ и ЧСС в мобильном приложении во время измерения.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">▤</div>
+            <h3>Сохранение и отчёты</h3>
+            <p>Формирование PDF-отчётов для хранения результатов и передачи специалисту.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">♡</div>
+            <h3>Профилактический контроль</h3>
+            <p>Регулярный мониторинг показателей сердечно-сосудистой системы.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="device" class="section section-soft">
+      <div class="container">
+        <p class="section-kicker">Устройство</p>
+        <h2>Наш кардиограф</h2>
+
+        <div class="gallery">
+          <figure class="gallery-card">
+            <img src="assets/cardiograph-1.png" alt="Кардиограф крупным планом">
+            <figcaption>Компактный корпус устройства</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="assets/cardiograph-3.png" alt="Два корпуса кардиографа и электроды">
+            <figcaption>Набор устройства и электродов</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="assets/cardiograph-2.png" alt="Кардиограф и электрод">
+            <figcaption>Проводные электроды для регистрации сигнала</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section">
+      <div class="container">
+        <p class="section-kicker">Команда</p>
+        <h2>Над проектом работают</h2>
+
+        <div class="team-grid">
+          <article class="person-card">
+              <img
+                class="avatar"
+                src="assets/Nikita.jpg"
+            >
+
+            <div>
+              <h3>Просвиркин Никита Константинович</h3>
+              <p class="role">Программист</p>
+              <p>Студент 3 курса ТУСУР</p>
+            </div>
+          </article>
+
+          <article class="person-card">
+            <img
+                class="avatar"
+                src="assets/Yaroslav.jpg"
+            >
+            <div>
+              <h3>Скоробогатов Ярослав Максимович</h3>
+              <p class="role">Руководитель и разработчик</p>
+              <p>Студент 3 курса НГТУ</p>
+            </div>
+          </article>
+
+          <article class="person-card">
+            <img
+                class="avatar"
+                src="assets/Dmitry.jpg"
+            >
+            <div>
+              <h3>Алексеев Дмитрий Григорьевич</h3>
+              <p class="role">Медицинский консультант</p>
+              <p>Студент 3 курса НГМУ</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="legal" class="section section-soft">
+      <div class="container">
+        <p class="section-kicker">Юридическое лицо</p>
+        <h2>Данные организации</h2>
+
+        <div class="legal-card">
+          <div>
+            <span>ИНН</span>
+            <strong>4212048139</strong>
+          </div>
+          <div>
+            <span>ОГРН</span>
+            <strong>1254200013264</strong>
+          </div>
+          <div>
+            <span>КПП</span>
+            <strong>421201001</strong>
+          </div>
+          <div class="legal-address">
+            <span>Юридический адрес</span>
+            <strong>652515, Кемеровская область — Кузбасс, г. Ленинск-Кузнецкий, пр-кт Кирова, д. 102, пом. 42</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="section">
+      <div class="container support-grid">
+        <div>
+          <p class="section-kicker">Поддержка</p>
+          <h2>Проект реализован при поддержке</h2>
+          <p class="support-text">
+            Проект реализован при поддержке Фонда содействия инновациям в рамках программы
+            «Студенческий стартап» мероприятия «Платформа университетского технологического предпринимательства»
+            федерального проекта «Технологии».
+          </p>
+        </div>
+
+        <div class="support-logos">
+          <div class="logo-box">
+            <img src="assets/fsi-logo.png" alt="Фонд содействия инновациям">
+          </div>
+          <div class="logo-box purple">
+            <img src="assets/platform-logo.png" alt="Платформа университетского технологического предпринимательства">
+          </div>
+          <div class="logo-box">
+            <img src="assets/cardiograph-logo.png" alt="Домашний кардиограф">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Домашний кардиограф</strong>
+      </div>
+      <div class="footer-links">
+        <a href="#about">О проекте</a>
+        <a href="#device">Устройство</a>
+        <a href="#team">Команда</a>
+        <a href="#legal">Реквизиты</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
