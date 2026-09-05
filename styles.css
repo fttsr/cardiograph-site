@@ -756,3 +756,42 @@ h2 {
   object-fit: cover;
   object-position: center;
 }
+
+.contact-card {
+  width: fit-content;
+  max-width: 100%;
+  margin: 18px 0 0 auto;
+  padding: 20px 26px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #dceef7;
+  border-radius: 18px;
+  background: #eef9fe;
+}
+
+.contact-card span {
+  margin-bottom: 8px;
+
+  color: #7894a4;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.contact-card a {
+  width: fit-content;
+
+  color: var(--navy);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+
+  transition: color .2s ease;
+}
+
+.contact-card a:hover {
+  color: var(--blue);
+}
