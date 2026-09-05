@@ -450,9 +450,11 @@ h2 {
 }
 
 .support-logos {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .logo-box {
